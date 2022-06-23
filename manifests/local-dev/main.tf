@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     argocd = {
-      source  = "oboukili/argocd"
-      version = "1.1.3"
+      source  = "Engr-MAsif/argocd"
+      version = "0.0.1"
 //      version = "0.4.8"
     }
   }
