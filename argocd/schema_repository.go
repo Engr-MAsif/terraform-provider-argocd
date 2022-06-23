@@ -81,5 +81,10 @@ func repositorySchema() map[string]*schema.Schema {
 			Type:     schema.TypeString,
 			Computed: true,
 		},
+		"proxy": {
+			Type:        schema.TypeString,
+			Description: "Proxy setting for repo",
+			Optional:    true,
+		},
 	}
 }
